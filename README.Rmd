@@ -1,0 +1,36 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# truthtbl
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of truthtbl is to generate truth tables given a vector of facts.
+
+## Installation
+
+You can install the development version of truthtbl like so:
+
+``` r
+devtools::install_github("andreranza/truthtbl")
+```
+
+## Example
+
+```{r example}
+library(truthtbl)
+expand_truth_tbl(c("is_inactive", "is_neutered"))
+```
