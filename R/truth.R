@@ -1,6 +1,6 @@
-#' Generate a truth tables
+#' Generate a truth table
 #'
-#' Generate a truth tables given a vector of facts.
+#' Generate a truth table given a vector of facts.
 #'
 #' @param fact_names A character vector of facts.
 #'

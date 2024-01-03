@@ -2,7 +2,7 @@
 % Please edit documentation in R/truth.R
 \name{expand_truth_tbl}
 \alias{expand_truth_tbl}
-\title{Generate a truth tables}
+\title{Generate a truth table}
 \usage{
 expand_truth_tbl(fact_names)
 }
@@ -13,7 +13,7 @@ expand_truth_tbl(fact_names)
 A data.frame.
 }
 \description{
-Generate a truth tables given a vector of facts.
+Generate a truth table given a vector of facts.
 }
 \examples{
 expand_truth_tbl(c("is_neutered", "is_inactive"))
