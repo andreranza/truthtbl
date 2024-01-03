@@ -31,7 +31,3 @@ rename_truth_tbl <- function(truth_tbl, names_vec) {
   names(truth_tbl) <- names_vec
   truth_tbl
 }
-
-
-
-
