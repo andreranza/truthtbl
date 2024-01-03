@@ -6,8 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of truthtbl is to generate truth tables given a vector of
-facts.
+The goal of truthtbl is to generate truth tables for a given a vector of
+variables.
 
 ## Installation
 
@@ -18,8 +18,6 @@ devtools::install_github("andreranza/truthtbl")
 ```
 
 ## Example
-
-This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(truthtbl)

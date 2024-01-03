@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of truthtbl is to generate truth tables given a vector of facts.
+The goal of truthtbl is to generate truth tables for a given a vector of variables.
 
 ## Installation
 
